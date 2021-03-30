@@ -19,7 +19,7 @@ pgclient.end();
 const table = 'CREATE TABLE student(id SERIAL PRIMARY KEY, firstName VARCHAR(40) NOT NULL, lastName VARCHAR(40) NOT NULL, age INT, address VARCHAR(80), email VARCHAR(40))'
 
 
-const pgclient = new Client({
+const pgclient1 = new Client({
     host: process.env.POSTGRES_HOST,
     port: process.env.POSTGRES_PORT,
     user: 'postgres',
@@ -27,16 +27,16 @@ const pgclient = new Client({
     database: 'prueba'
 });
 
-pgclient.connect();
+pgclient1.connect();
 // Primer insert
 const text = 'INSERT INTO student(firstname, lastname, age, address, email) VALUES($1, $2, $3, $4, $5) RETURNING *'
 const values = ['Ingrid', 'Chávez', 18, 'Reforms 222. Cuauhtémoc, CDMX, México', 'ingrid@github.com']
 
-pgclient.query(table, (err, res) => {
+pgclient1.query(table, (err, res) => {
     if (err) throw err
 });
 
-pgclient.query(text, values, (err, res) => {
+pgclient1.query(text, values, (err, res) => {
     if (err) throw err
 });
 
@@ -46,12 +46,12 @@ const text1 = 'INSERT INTO student(firstname, lastname, age, address, email) VAL
 const values1 = ['Roberto', 'Andrade', 58, 'Chopo 8, Cuauhtémoc, CDMX, México', 'raf@github.com']
 
 
-pgclient.query(text1, values1, (err, res) => {
+pgclient1.query(text1, values1, (err, res) => {
     if (err) throw err
 });
 
-pgclient.query('SELECT * FROM student', (err, res) => {
+pgclient1.query('SELECT * FROM student', (err, res) => {
     if (err) throw err
     console.log(err, res.rows) // Print the data in student table
-    pgclient.end()
+    pgclient1.end()
 });
