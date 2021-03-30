@@ -19,7 +19,7 @@ pgclient.query(table, (err, res) => {
 
 // Primer insert
 const text = 'INSERT INTO student(firstname, lastname, age, address, email) VALUES($1, $2, $3, $4, $5) RETURNING *'
-const values = ['Ingrid', 'Chávez', 18, 'Reforms 222. Cuauhtémoc, CDMX, México', 'ingrid@github.com']
+const values = ['Ingrid', 'Chávez', 18, 'Reforma 222. Cuauhtémoc, CDMX, México', 'ingrid@github.com']
 
 pgclient.query(text, values, (err, res) => {
     if (err) throw err
@@ -38,5 +38,5 @@ pgclient.query(text1, values1, (err, res) => {
 pgclient.query('SELECT * FROM student', (err, res) => {
     if (err) throw err
     console.log(err, res.rows) // Print the data in student table
-    pgclient1.end()
+    pgclient.end()
 });
