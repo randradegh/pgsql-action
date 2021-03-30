@@ -10,16 +10,6 @@ const pgclient = new Client({
 
 pgclient.connect();
 
-const pgclient = new Client({
-    host: process.env.POSTGRES_HOST,
-    port: process.env.POSTGRES_PORT,
-    user: 'postgres',
-    password: 'postgres',
-    database: 'prueba'
-});
-
-pgclient.connect();
-
 // Creamos la tabla
 const table = 'CREATE TABLE student(id SERIAL PRIMARY KEY, firstName VARCHAR(40) NOT NULL, lastName VARCHAR(40) NOT NULL, age INT, address VARCHAR(80), email VARCHAR(40))'
 
