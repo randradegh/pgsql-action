@@ -11,7 +11,7 @@ const pgclient = new Client({
 pgclient.connect();
 
 // Creamos la base de datos de prueba
-const create_db = 'CREATE DATABASE prueba'
+const create_db = 'CREATE DATABASE prueba';
 
 pgclient.query(create_db, (err, res) => {
     if (err) throw err
