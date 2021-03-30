@@ -29,9 +29,9 @@ jobs:
       
     steps:
       - name: Start PostgreSQL on Ubuntu
-      run: |
-        sudo systemctl start postgresql.service
-        pg_isready
+        run: |
+          sudo systemctl start postgresql.service
+          pg_isready
 
       - name: Create test database
         run: sudo -u postgres createdb --owner=postgres test
