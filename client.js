@@ -26,14 +26,11 @@ pgclient.query(text, values, (err, res) => {
 });
 
 
-const text = 'INSERT INTO student(firstname, lastname, age, address, email) VALUES($1, $2, $3, $4, $5) RETURNING *'
-const values = ['Roberto', 'Andrade', 58, 'Chopo 8, Cuauhtémoc, CDMX, México', 'raf@github.com']
+const text1 = 'INSERT INTO student(firstname, lastname, age, address, email) VALUES($1, $2, $3, $4, $5) RETURNING *'
+const values1 = ['Roberto', 'Andrade', 58, 'Chopo 8, Cuauhtémoc, CDMX, México', 'raf@github.com']
 
-pgclient.query(table, (err, res) => {
-    if (err) throw err
-});
 
-pgclient.query(text, values, (err, res) => {
+pgclient.query(text1, values1, (err, res) => {
     if (err) throw err
 });
 
