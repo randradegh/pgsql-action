@@ -13,7 +13,8 @@ pgclient.connect();
 // Creamos la base de datos de prueba
 const create_db = 'CREATE DATABASE prueba';
 
-pgclient.query(create_db, (err, res) => {
+// pgclient.query(create_db, (err, res) => {
+pgclient.query('CREATE DATABASE prueba', (err, res) => {
     if (err) throw err
 });
 
