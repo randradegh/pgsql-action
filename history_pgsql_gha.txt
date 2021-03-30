@@ -1,0 +1,1000 @@
+   11  tree .dropbox
+   12  ./.dropbox-dist/dropboxd 
+   13  cd ~/proyectos/
+   14  python --version
+   15  cd
+   16  ls Descargas/
+   17  bash ~/Descargas/Miniconda3-latest-Linux-x86_64.sh 
+   18  gnome-tweaks 
+   19  cd $ADATA
+   20  qgis&
+   21  pwd
+   22  cd ..
+   23  vi ~/.bashrc 
+   24  . ~/.bashrc 
+   25  cd $CENSO_DB
+   26  . ~/.bashrc 
+   27  vi ~/.bashrc 
+   28  . ~/.bashrc 
+   29  cd $CENSO_DB
+   30  vi ~/.bashrc 
+   31  . ~/.bashrc 
+   32  cd $CENSO_DB
+   33  vi ~/.bashrc 
+   34  . ~/.bashrc 
+   35  cd $CENSO_DB
+   36  cd scripts/
+   37  psql -U postgres censo_2020
+   38  conda create --name jptrviz
+   39  python --version
+   40  conda --help
+   41  conda remove --name jptrviz
+   42  conda remove jptrviz
+   43  conda create --name jptrviz python=3.8
+   44  conda activate jptrviz
+   45  conda install jupyterlab
+   46  conda install tqdm
+   47  jupyter lab
+   48  pwd
+   49  cd ..
+   50  ll
+   51  mkdir -p dev/python/jupyter/; cd $_
+   52  jupyter lab
+   53  ll
+   54  jupyter lab
+   55  conda activate jptrviz
+   56  conda install pandas numpy
+   57  conda install matplotlib
+   58  conda install scipy
+   59  conda activate jptrviz
+   60  conda install seaborn
+   61  conda install ipykernel
+   62  puton -m install --user --name jptrviz
+   63  python -m install --user --name jptrviz
+   64  python -m ipykernel install --user --name jptrviz
+   65  conda install statmodels
+   66  conda install statsmodels
+   67  cd ..
+   68  cd dev/python/jupyter/
+   69  ll
+   70  cp /home/randrade/proyectos/inegi/censo_2020/db/scripts/escolaridad_ateismo.csv .
+   71  conda activate jptrviz
+   72  jupyter lab
+   73  ll
+   74  jupyter lab
+   75  code
+   76  ll
+   77  cat escolaridad_ateismo.csv 
+   78  pwd
+   79  sudo dnf install qbittorrent
+   80  env | grep CPV
+   81  env | grep cpv
+   82  env | grep DATA
+   83  cd proyectos/inegi/censo_2020/db/scripts/
+   84  psql -U postgres censo_2020
+   85  vi q4.sql 
+   86  code
+   87  cd ..
+   88  cd dev/python/jupyter/
+   89  ll
+   90  conda activate jptrviz
+   91  jupyter lab
+   92  ll
+   93  cp escolaridad_ateismo.csv escolaridad_ateismo_sc.csv 
+   94  vi escolaridad_ateismo_sc.csv 
+   95  cd proyectos/inegi/censo_2020/db/scripts/
+   96  ll
+   97  psql -U postgres censo_2020
+   98  cd proyectos/inegi/censo_2020/db/scripts/
+   99  ll
+  100  psql -U postgres censo_2020
+  101  code 
+  102  vi cpv_2020_data_varios.csv 
+  103  cp cpv_2020_data_varios.csv ~/learning/python/jupyter/profiling/
+  104  ll
+  105  cd ~/
+  106  ll
+  107  mkdir -p learning/python/jupyter/profiling/
+  108  cd $_
+  109  ll
+  110  cat config.yaml 
+  111  conda activate jptrviz
+  112  jupyter lab
+  113  jupyter notebook
+  114  pwd
+  115  enc | grep INE
+  116  env | grep INE
+  117  cd $INEGI
+  118  ll
+  119  cd ..
+  120  ll
+  121  cd ~/proyectos/inegi/censo_2020/dev/python/jupyter/
+  122  jupyter notebook
+  123  conda activate jptrviz
+  124  conda install pandas_profiling
+  125  conda install pandas
+  126  pip install pandas_profiling
+  127  psql -U postgres censo_2020
+  128  ll
+  129  cp /home/randrade/proyectos/inegi/censo_2020/db/scripts/escolaridad_ateismo.csv .
+  130  ll
+  131  cp /home/randrade/proyectos/inegi/censo_2020/db/scripts/cpv_2020_data_varios.csv .
+  132  ll
+  133  code
+  134  ll
+  135  cat cpv_2020_data_varios.csv 
+  136  cd
+  137  cd proyectos/inegi/db
+  138  cd proyectos/inegi/censo_2020/db/
+  139  pwd
+  140  vi ~/.bashrc 
+  141  cd $CENSO_DB
+  142  cd scripts/
+  143  psql -U postgres censo_2020
+  144  cd ~/proyectos/inegi/censo_2020/dev/python/jupyter/
+  145  conda activate jptrviz
+  146  jupyter notebook
+  147  sido dnf install okular
+  148  sudo dnf install okular
+  149  pgadmin3 &
+  150  java -version
+  151  sudo yum -y install wget
+  152  sudo rpm -Uvh ./dbeaver-ce-latest-stable.x86_64.rpm
+  153  wget https://dbeaver.io/files/dbeaver-ce-latest-stable.x86_64.rpm
+  154  sudo rpm -Uvh ./dbeaver-ce-latest-stable.x86_64.rpm
+  155  dbeaver &
+  156  cd proyectos/
+  157  ll
+  158  #mkdir -p python/dash/
+  159  cd ../learning/python/
+  160  #mkdir -p python/dash/
+  161  ll
+  162  mkdir -p python/dash/dev/uber; cd $_
+  163  ll
+  164  unzip uber-tlc-foil-response-master.zip 
+  165  cd uber-tlc-foil-response-master/
+  166  ll
+  167  vi README.md 
+  168  conda create --name dashdev
+  169  conda activate dash_dev
+  170  pwd
+  171  ll
+  172  tree
+  173  cd ..
+  174  rm -R uber-tlc-foil-response-master/
+  175  ll
+  176  git clone https://github.com/plotly/dash-sample-apps.git
+  177  ll
+  178  cd dash-sample-apps/
+  179  ll
+  180  vi requirements.txt 
+  181  cat requirements.txt 
+  182  cd apps/dash-uber-rides-demo/
+  183  ll
+  184  cat requirements.txt 
+  185  conda activate dash_dev
+  186  conda activate  dashdev
+  187  conda install -r requeriments.txt
+  188  conda install pip
+  189  pip install -r requirements.txt 
+  190  pip update pip
+  191  pip -update pip
+  192  pip --update pip
+  193  pip install --upgrede pip
+  194  pip install --upgrade pip
+  195  pip install --upgrade python
+  196  pip install --upgrade python3
+  197  pip install --upgrade python
+  198  pip install --upgrade python3
+  199  pip3 list -o
+  200  pip install -r requirements.txt  --upgrade
+  201  cat requirements.txt 
+  202  pip install python3
+  203  pip install -r python3
+  204  conda install python3
+  205  conda install python
+  206  conda install dash
+  207  cat requirements.txt 
+  208  conda install pandas
+  209  conda install gunicorn
+  210  pip install gunicorn
+  211  python app.py 
+  212  pip install gunicorn
+  213  python app.py 
+  214  vi app.py 
+  215  python app.py 
+  216  vi app.py 
+  217  conda activate  dashdev
+  218  vi app.py 
+  219  ll
+  220  ls assets/
+  221  vi README.md 
+  222  cat Procfile 
+  223  cat requirements.txt 
+  224  vi app.py 
+  225  cp app.py app_original.py 
+  226  vi app.py 
+  227  ll
+  228  cd ..
+  229  ll
+  230  cd ..
+  231  ll
+  232  cd ..
+  233  ll
+  234  ll -h
+  235  cd dash-sample-apps/apps/
+  236  ll
+  237  cd dash-uber-rides-demo/
+  238  ll
+  239  vi README.md 
+  240  vi app.py 
+  241  ll
+  242  wget   "https://raw.githubusercontent.com/plotly/datasets/master/uber-rides-data1.csv",
+  243  wget https://raw.githubusercontent.com/plotly/datasets/master/uber-rides-data1.csv
+  244  ll
+  245  head uber-rides-data1.csv 
+  246  wc -l $_
+  247  cd learning/python/dash/dev/uber/dash-sample-apps/
+  248  ll
+  249  cd apps/
+  250  ll
+  251  cd dash-uber-rides-demo/
+  252  pwd
+  253  vi ~/.bashrc 
+  254  . ~/.bashrc
+  255  d $UBER_DEV 
+  256  cd $UBER_DEV 
+  257  conda activate  dashdev
+  258  python app.py 
+  259  vi app.py 
+  260  python app.py 
+  261  vi app.py 
+  262  python app.py 
+  263  vi app.py 
+  264  python app.py 
+  265  vi app.py 
+  266  python app.py 
+  267  pip install --upgrade plotly 
+  268  python app.py 
+  269  pwd
+  270  cd learning/python/dash/dev/uber/dash-sample-apps/apps/
+  271  ll
+  272  ll | wc -l
+  273  ll
+  274  code
+  275  vi c19.py
+  276  python c19.py 
+  277  vi c19.py
+  278  python c19.py 
+  279  vi c19.py
+  280  python c19.py 
+  281  vi c19.py
+  282  python c19.py 
+  283  vi c19.py
+  284  python c19.py 
+  285  vi countries.py
+  286  python countries.py 
+  287  python3 countries.py 
+  288  vi countries.py
+  289  python3 countries.py 
+  290  vi bb.py
+  291  python2 bb.py 
+  292  python3 bb.py 
+  293  vi bb.py
+  294  python3 bb.py 
+  295  vi countries.py
+  296  python3 countries.py 
+  297  cat .bashrc 
+  298  vi $_
+  299  . ./.bashrc 
+  300  cd $DASH_DEV
+  301  ll
+  302  cd dash-mes-form-submission/
+  303  vi requirements.txt 
+  304  ll
+  305  conda create --name dash_db
+  306  cat app.py 
+  307  head -20  app.py 
+  308  conda activate dash_db
+  309  history 
+  310  conda install pip
+  311  head -20  app.py 
+  312  conda install sqlalchemy
+  313  conda install dash
+  314  head -20  app.py 
+  315  conda install pandas
+  316  python3 app.py 
+  317  ll
+  318  python c19.py 
+  319  su - 
+  320  ./.dropbox-dist/dropboxd 
+  321  ~/.dropbox-dist/dropboxd 
+  322  cd $DASH_DEV
+  323  ll
+  324  cd dash-uber-rides-demo/
+  325  conda activate  dashdev
+  326  ll
+  327  python app
+  328  python app.py 
+  329  su - postgres
+  330  psql -U postgres censo_2020
+  331  psql -p 5432 -U postgres censo_2020
+  332  ll
+  333  cd proyectos/inegi/censo_2020/db/scripts/
+  334  ll
+  335  vi cpv_2020_data_varios.csv 
+  336  ps -aux 1 grep vin
+  337  ps -aux 1 grep vi
+  338  ps -aux | grep vi
+  339  kill -5 27250
+  340  cd /run/media/randrade/ADATAHV100/respaldos/rsync/randrade/capacitacion/google/data/
+  341  ll
+  342  wget https://raw.githubusercontent.com/jbrownlee/Datasets/master/shampoo.csv
+  343  pwd
+  344  vi ~/.bashrc 
+  345  vi shampoo.csv 
+  346  cp shampoo.csv shampoo_curso.csv 
+  347  vi shampoo_curso.csv 
+  348  cp shampoo.csv shampoo_curso.csv 
+  349  vi shampoo_curso.csv 
+  350  cat .bashrc 
+  351  cd $GDS
+  352  pwd
+  353  . ./.bashrc 
+  354  ls /run/media/randrade/ADATAHV100/respaldos/rsync/randrade/capacitacion/google/
+  355  vi ./.bashrc 
+  356  . ./.bashrc 
+  357  cd $GDS
+  358  pwd
+  359  16 consejos de Gabriel García Márquez para los que sueñan con ser escritores
+  360  1. Una cosa es una historia larga, y otra una historia alargada.
+  361  2. Un escritor puede escribir lo que le dé la gana siempre que sea capaz de hacerlo creer.
+  362  3. No creo en el mito romántico de que el escritor debe pasar hambre, debe estar jodido, para producir.
+  363  4. Es más fácil atrapar a un conejo que a un lector.
+  364  5. El final de un reportaje hay que escribirlo cuando vas por la mitad.
+  365  6. Hay que empezar con la voluntad de que aquello que escribimos va a ser lo mejor que se ha escrito nunca, porque luego siempre queda algo de esa voluntad.
+  366  7. Cuando uno se aburre escribiendo, el lector se aburre leyendo.
+  367  8. No debemos obligar al lector a leer una frase de nuevo.
+  368  9. El autor recuerda más cómo termina un artículo que cómo empieza.
+  369  10. Se escribe mejor habiendo comido bien y con una máquina eléctrica.
+  370  11. El deber revolucionario de un escritor es escribir bien.
+  371  12. Simplifiquemos la gramática antes de que la gramática termine por simplificarnos a nosotros
+  372  13. Casi siempre que se eluden los adverbios acabados en mente se encuentran formas bellas y originales de decir las cosas.
+  373  14. Para ser un buen escritor es importante leer mucho, del derecho y del revés a los grandes autores que han creado y alimentado nuestra lengua y a aquellos que siguen inventándola cada día. No hay otra manera de aprender a escribir.
+  374  15. El oficio de escritor es tal vez el único que se hace más difícil a medida que más se practica
+  375  16. Dicen que hay que empezar, y escribir, y escribir, hasta que de pronto uno siente que las cosas salen solas, como si alguien te las dictara al oído, o como si el que las escribe fuera otro.
+  376  16 consejos de Gabriel García Márquez para los que sueñan con ser escritores
+  377  1. Una cosa es una historia larga, y otra una historia alargada.
+  378  2. Un escritor puede escribir lo que le dé la gana siempre que sea capaz de hacerlo creer.
+  379  3. No creo en el mito romántico de que el escritor debe pasar hambre, debe estar jodido, para producir.
+  380  4. Es más fácil atrapar a un conejo que a un lector.
+  381  5. El final de un reportaje hay que escribirlo cuando vas por la mitad.
+  382  6. Hay que empezar con la voluntad de que aquello que escribimos va a ser lo mejor que se ha escrito nunca, porque luego siempre queda algo de esa voluntad.
+  383  7. Cuando uno se aburre escribiendo, el lector se aburre leyendo.
+  384  8. No debemos obligar al lector a leer una frase de nuevo.
+  385  9. El autor recuerda más cómo termina un artículo que cómo empieza.
+  386  10. Se escribe mejor habiendo comido bien y con una máquina eléctrica.
+  387  11. El deber revolucionario de un escritor es escribir bien.
+  388  12. Simplifiquemos la gramática antes de que la gramática termine por simplificarnos a nosotros
+  389  13. Casi siempre que se eluden los adverbios acabados en mente se encuentran formas bellas y originales de decir las cosas.
+  390  14. Para ser un buen escritor es importante leer mucho, del derecho y del revés a los grandes autores que han creado y alimentado nuestra lengua y a aquellos que siguen inventándola cada día. No hay otra manera de aprender a escribir.
+  391  15. El oficio de escritor es tal vez el único que se hace más difícil a medida que más se practica
+  392  16. Dicen que hay que empezar, y escribir, y escribir, hasta que de pronto uno siente que las cosas salen solas, como si alguien te las dictara al oído, o como si el que las escribe fuera otro.
+  393  cd ~/Documentos/obsidian_zero/
+  394  ll
+  395  cat o01.md.md 
+  396  ll
+  397  wget https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
+  398  ll
+  399  head README.md 
+  400  mv README.md markdown_format.md
+  401  vi markdown_format.md 
+  402  rm markdown_format.md 
+  403  ll
+  404  rm specialbrand_markdown.tex 
+  405  cp Format\ your\ notes\ -\ Obsidian-docs.md format_obsidian_docs.md
+  406  vi format_obsidian_docs.md 
+  407  cd Descargas/
+  408  ll 
+  409  file Obsidian-0.11.3.AppImage 
+  410  chmod +x Obsidian-0.11.3.AppImage 
+  411  ./Obsidian-0.11.3.AppImage 
+  412  cd Descargas/
+  413  ll
+  414  file Obsidian-0.11.3.AppImage 
+  415  ll -h
+  416  rm zoom_x86_64.rpm 
+  417  rm postgis3*
+  418  ll -h
+  419  rm Calvino\,\ Italo\ -\ Si\ una\ noche\ de\ invierno\ un\ viajero\ \[10778\]\ \(r1.4\).epub 
+  420  ~/Descargas/Obsidian-0.11.3.AppImage 
+  421  sudo Dropbox start -i
+  422  Dropbox start -i
+  423  dropbox
+  424  su - 
+  425  Dropbox start -i
+  426  ~/.dropbox-dist/dropboxd 
+  427  cp Descargas/Obsidian-0.11.3.AppImage /usr/local/bin/
+  428  sudo cp Descargas/Obsidian-0.11.3.AppImage /usr/local/bin/
+  429  sudo chmod +x /usr/local/bin/Obsidian-0.11.3.AppImage 
+  430  Obsidian-0.11.3.AppImage &
+  431  cd Documentos/obsidian_zero/
+  432  ll
+  433  rmdir Untitled/
+  434  ll
+  435  rm Untitled.md 
+  436  cd ~/Dropbox/proyectos/mad/obsidiana/
+  437  ll -a
+  438  rm obsidian.css.md 
+  439  ls .obsidian/
+  440  ls .obsidian/workspace 
+  441  ls .obsidian/config 
+  442  find . -name obsidian.css
+  443  find . -name obsidian*
+  444  find . -name *.css
+  445  vi .obsidian/themes/Comfort\ color\ dark.css 
+  446  cd /run/media/randrade/Lexar/.Trash-1000/
+  447  ll
+  448  cd files/
+  449  ll -a
+  450  rm *
+  451  rm -Rf *
+  452  cd
+  453  cd Dropbox/proyectos/mad/obsidiana/
+  454  Obsidian-0.11.3.AppImage 
+  455  ~/.dropbox-dist/dropboxd 
+  456  Dropbox start -i
+  457  sudo Dropbox start -i
+  458  ~/.dropbox-dist/dropboxd 
+  459  cd Dropbox/proyectos/mad/obsidiana/
+  460  Obsidian-0.11.3.AppImage 
+  461  cd Dropbox/proyectos/mad/2021-2/images/
+  462  ll *.webp
+  463  dwebp facebook-uber-and-dating-sites-top-list-of-companies-collect_s9cf.1920.webp data.png
+  464  sudo dnf install webp
+  465  sudo dnf install libwebp-tools
+  466  dwebp facebook-uber-and-dating-sites-top-list-of-companies-collect_s9cf.1920.webp data.png
+  467  dwebp facebook-uber-and-dating-sites-top-list-of-companies-collect_s9cf.1920.webp -o data.png
+  468  pwd
+  469  ln -s ../../2020-2/presentaciones/bases_datos.odp .
+  470  ll
+  471  pwd
+  472  ln -s ../../2020-2/images/* .
+  473  ll
+  474  rm bases_datos.odp 
+  475  cd ../presentaciones/
+  476  ln -s ../../2020-2/presentaciones/bases_datos.odp .
+  477  ll
+  478  cd ~/Dropbox/proyectos/mad/obsidiana/
+  479  ll -a
+  480  Obsidian-0.11.3.AppImage 
+  481  ~/.dropbox-dist/dropboxd 
+  482  conda activate  streamlit_dev
+  483  streamlit run app
+  484  ./streamlit run app
+  485  ll
+  486  ./streamlit run app.py
+  487  streamlit run app.py
+  488  ll
+  489  vi setup.sh 
+  490  setup.sh
+  491  bash setup.sh
+  492  streamlit hello
+  493  pip install streamlit
+  494  streamlit hello
+  495  streamlit run app.py
+  496  streamlit hello
+  497  pip uninstall streamlit
+  498  conda remove --name streamlit --all .
+  499  conda remove --name streamlit --all 
+  500  cd /tmp/
+  501  wget  https://raw.githubusercontent.com/streamlit/demo-self-driving/master/app.py
+  502  ll
+  503  wget  https://raw.githubusercontent.com/streamlit/demo-self-driving/master/app.py .
+  504  wget  https://raw.githubusercontent.com/streamlit/demo-self-driving/master/app.py
+  505  Dropbox start -i
+  506  ~/.dropbox-dist/dropbox-lnx.x86_64-117.4.378/dropbox help
+  507  ~/.dropbox-dist/dropboxd
+  508  cd learning/python/jupyter/streamlit/
+  509  ll
+  510  unzip palmerpenguins-streamlit-eda-master.zip 
+  511  cd palmerpenguins-streamlit-eda-master/
+  512  ll
+  513  head Penguin\ data.csv 
+  514  vi Procfile 
+  515  vi README.md 
+  516  conda create --name streamlit_dev
+  517  pip install streanlit
+  518  pip install streamlit
+  519  streamlit hello
+  520  ll
+  521  vi app.py 
+  522  pip remove streamlit
+  523  pip delete streamlit
+  524  pip --help
+  525  pip uninstall streamlit
+  526  conda remove --name streamlit_dev --all
+  527  conda create --name streamlit_dev
+  528  coda activate streamlit
+  529  conda activate streamlit
+  530  conda activate streamlit_dev
+  531  pip install streamlit
+  532  streamlit hello
+  533  pip install streamlit
+  534  streamlit hello
+  535  cp /tmp/app.py demo_app.py
+  536  sudo cp /tmp/app.py demo_app.py
+  537  ls /tmp/
+  538  conda deactivate
+  539  pip install streamlit
+  540  streamlit hello
+  541  streamlit demo
+  542  cd learning/python/jupyter/streamlit/palmerpenguins-streamlit-eda-master/
+  543  pip install streamlit
+  544  streamlit hello
+  545  streamlit demo
+  546  pip remove streamlit
+  547  pip unistall streamlit
+  548  pip uninstall streamlit
+  549  streamlit demo
+  550  pip install streamlit
+  551  streamlit hello
+  552  cd learning/python/jupyter/streamlit/palmerpenguins-streamlit-eda-master/
+  553  streamlit hello
+  554  pip remove streamlit
+  555  pip uninstall streamlit
+  556  pip -version
+  557  pip --version
+  558  python --version
+  559  sudo dnf update python
+  560  sudo dnf update python3
+  561  conda activate streamlit_dev
+  562  pip uninstall streamlit
+  563  pip install streamlit
+  564  streamlit  hello
+  565  streamlit  runn app.py 
+  566  streamlit  hello
+  567  vi /home/randrade/.local/lib/python3.9/site-packages/toml/decoder.py
+  568  streamlit  hello
+  569  vi /home/randrade/.local/lib/python3.9/site-packages/toml/decoder.py
+  570  pip uninstall streamlit
+  571  pip install streamlit
+  572  streamlit  hello
+  573  vi /home/randrade/.local/lib/python3.9/site-packages/toml/decoder.py
+  574  pip update python3
+  575  pip install python3
+  576  pip install python
+  577  dnf --help
+  578  sudo dnf reinstall python3
+  579  streamlit  hello
+  580  vi /home/randrade/.local/lib/python3.9/site-packages/toml/decoder.py
+  581  vi ~/.local/bin/streamlit
+  582  conda deactivate
+  583  streamlit  hello
+  584  streamlit demo
+  585  ll
+  586  streamlit run app.py
+  587  cd ..
+  588  ll
+  589  rm -Rf palmerpenguins-streamlit-eda-master/
+  590  ll
+  591  conda delete --name streamlit --all
+  592  conda remove --name streamlit_dev --all
+  593  conda -list
+  594  conda list
+  595  conda env list
+  596  conda create --name streamlit_dev
+  597  conda activate streamlit_dev
+  598  pip install streamlit
+  599  streamlit  hello
+  600  ll
+  601  python --version
+  602  streamlit  hello
+  603  pip install streamlit
+  604  streamlit  hello
+  605  ll
+  606  unzip palmerpenguins-streamlit-eda-master.zip 
+  607  streamlit  hello
+  608  pip install streamlit
+  609  pip uninstall streamlit
+  610  pip install streamlit
+  611  streamlit  hello
+  612  ll
+  613  cd palmerpenguins-streamlit-eda-master/
+  614  streamlit run app.py 
+  615  pip uninstall streamlit
+  616  conda unistall streamlit
+  617  conda uninstall streamlit
+  618  ls /home/randrade/.local/lib/python3.9/site-packages/
+  619  python -version
+  620  python --version
+  621  conda deactivate
+  622  python --version
+  623  streamlit hello
+  624  ls ~/.local/bin/
+  625  ll
+  626  ls ~/.local/bin/
+  627  ls ~/.local/bin/streamlit*
+  628  ll ~/.local/bin/streamlit*
+  629  rm ~/.local/bin/streamlit*
+  630  ll ~/.local/bin/streamlit*
+  631  ll ~/.local/bin/
+  632  conda activate
+  633  streamlit hello
+  634  vi first_app.py 
+  635  ll
+  636  vi app.py 
+  637   . /home/randrade/.local/share/virtualenvs/palmerpenguins-streamlit-eda-master-iPPQVGAO/bin/activate
+  638  streamlit run app.py 
+  639  streamlit hello
+  640  ll
+  641  vi first_app.py
+  642  streamlit run first_app.py 
+  643  cd learning/python/jupyter/streamlit/palmerpenguins-streamlit-eda-master/
+  644  ll
+  645  vi requirements.txt 
+  646  streamlit hello
+  647  conda activate streamlit_dev
+  648  streamlit hello
+  649  streamlit run app.py 
+  650  pip uninstall streamlit
+  651  streamlit run app.py 
+  652  pip install streamlit
+  653  streamlit run app.py 
+  654  ll
+  655  streamlit hello
+  656  vi ~/.local/bin/streamlit
+  657  find ~ -name streamlit.config
+  658  find ~ -name .streamlit.config
+  659  find ~ -name .streamlit.config*
+  660  find ~ -name config*
+  661  find ~ -name config.toml
+  662  vi ~/.streamlit/config.toml 
+  663  cp ~/.streamlit/config.toml ~/.streamlit/config.toml.ori 
+  664  vi ~/.streamlit/config.toml 
+  665  streamlit hello
+  666  conda deactivate
+  667  pip3 install pipenv
+  668  pwd
+  669  ll
+  670  pipenv
+  671  ll
+  672  pipenv
+  673  python -version
+  674  python --version
+  675  pipenv --python 3.8.5
+  676  ll -a
+  677  pipenv install streamlit
+  678  pipenv shell
+  679   . /home/randrade/.local/share/virtualenvs/palmerpenguins-streamlit-eda-master-iPPQVGAO/bin/activate
+  680  streamlit run app.py 
+  681  ll
+  682  streamlit run first_app.py 
+  683  conda deactivate
+  684  ll
+  685  code
+  686  streamlit run st_zorro_01.py 
+  687  cd learning/python/jupyter/streamlit/palmerpenguins-streamlit-eda-master/
+  688  ll -a
+  689  history | grep pip
+  690  pipenv shell
+  691  ~/.dropbox-dist/dropboxd
+  692   . /home/randrade/.local/share/virtualenvs/palmerpenguins-streamlit-eda-master-iPPQVGAO/bin/activate
+  693  streamlit run st_zorro_01.py 
+  694  streamlit run map_01.py 
+  695  cd learning/python/jupyter/streamlit/palmerpenguins-streamlit-eda-master/
+  696  ll
+  697  streamlit run st_zorro_01.py 
+  698  pipenv shell
+  699  code
+  700  head data_febrero_2020.csv 
+  701  vi ~/.streamlit/config.toml
+  702  head data_febrero_2020.csv 
+  703  vi $_
+  704  vi ~/.streamlit/config.toml
+  705  vi data_febrero_2020.csv 
+  706   . /home/randrade/.local/share/virtualenvs/palmerpenguins-streamlit-eda-master-iPPQVGAO/bin/activate
+  707  conda deactivate
+  708  ll
+  709  streamlit run map_01.py 
+  710  streamlit run map_02.py 
+  711  cd learning/python/jupyter/streamlit/palmerpenguins-streamlit-eda-master/
+  712  pipenv shell
+  713  qbittorrent &
+  714  zoom &
+  715  ~/.dropbox-dist/dropboxd
+  716  ll
+  717  conda activate ll
+  718  ll
+  719  conda activate time_series
+  720  conda install pandas, matplotlib, numpy
+  721  pip install pandas, matplotlib, numpy
+  722  pip install pandas
+  723  pip install matplotlib
+  724  conda install plotly
+  725  conda install chart-studio
+  726  pip install chart-studio
+  727  conda install keras
+  728  conda install sklearn
+  729  pip install sklearn
+  730  ll
+  731  head test.csv 
+  732  head sample_submission.csv 
+  733  ll
+  734  unzip train.csv.zip 
+  735  pip install statmodels
+  736  pip install statsmodels
+  737  find ~/learning/python/ -name venta*
+  738  find ~/learning/python/ -name time*
+  739  find ~/learning/python/ -name sales*
+  740  head -100 train.csv
+  741  head -500 train.csv
+  742  head -50 train.csv
+  743  head -30 train.csv
+  744  pdftotext ~/Dropbox/proyectos/mad/2021-2/casos/china_ecommerce_SMU903-PDF-ENG_teaching_note.pdf > t.txt
+  745  cat t.tx
+  746  pdftotext ~/Dropbox/proyectos/mad/2021-2/casos/china_ecommerce_SMU903-PDF-ENG_teaching_note.pdf 
+  747  pdftotext --help
+  748   
+  749  pdftotext --help
+  750  pdftohtml --help
+  751  pdftot -s ~/Dropbox/proyectos/mad/2021-2/casos/china_ecommerce_SMU903-PDF-ENG_teaching_note.pdf > t.txt
+  752  pdftotext -s ~/Dropbox/proyectos/mad/2021-2/casos/china_ecommerce_SMU903-PDF-ENG_teaching_note.pdf > t.txt
+  753  pdftotext -nodrm ~/Dropbox/proyectos/mad/2021-2/casos/china_ecommerce_SMU903-PDF-ENG_teaching_note.pdf > t.txt
+  754  pdftotext -h
+  755  pdftotext ~/Dropbox/proyectos/mad/2021-2/casos/china_ecommerce_SMU903-PDF-ENG_teaching_note.pdf  t.txt
+  756  cat t.txt q
+  757  pdftotext ~/Dropbox/proyectos/mad/2021-2/casos/china_ecommerce_SMU903-PDF-ENG_teaching_note.pdf  t.txt
+  758  pdftohtml ~/Dropbox/proyectos/mad/2021-2/casos/china_ecommerce_SMU903-PDF-ENG_teaching_note.pdf  t.txt::q
+  759  pdftohtml --help
+  760  pdftohtml -nodrm ~/Dropbox/proyectos/mad/2021-2/casos/china_ecommerce_SMU903-PDF-ENG_teaching_note.pdf  t.txt
+  761  vi t.txt
+  762  pdftohtml --help
+  763  pdftotext -nodrm ~/Dropbox/proyectos/mad/2021-2/casos/china_ecommerce_SMU903-PDF-ENG_teaching_note.pdf  china_ecommerce.txt
+  764  pdftotext --help
+  765  pdftohtml -nodrm ~/Dropbox/proyectos/mad/2021-2/casos/china_ecommerce_SMU903-PDF-ENG_teaching_note.pdf  china_ecommerce.html
+  766  ll
+  767  vim t.txts.html 
+  768  pwd
+  769  pdftohtml -nodrm ~/Dropbox/proyectos/mad/2021-2/casos/china_ecommerce_SMU903-PDF-ENG_teaching_note.pdf chine_ecommerce.html
+  770  vim chine_ecommerce.html 
+  771  vim chine_ecommerces.html 
+  772  pdftohtml --help
+  773  pdftohtml -nodrm -c ~/Dropbox/proyectos/mad/2021-2/casos/china_ecommerce_SMU903-PDF-ENG_teaching_note.pdf china_ecommerce.html
+  774  ll
+  775  cd /home/randrade/learning/python/jupyter/sales/predicting_sales.ipynb
+  776  cd /home/randrade/learning/python/jupyter/sales
+  777  cd /home/randrade/learning/python/
+  778  ll
+  779  cd jupyter/
+  780  ll
+  781  find ~/learning/ predicting*
+  782  find ~/learning/ -name predicting*
+  783  find ~ -name  predicting*
+  784  find /run/media/randrade/ADATAHV100/respaldos/rsync/ -name  predicting*
+  785  find /run/media/randrade/ADATAHV100/respaldos/rsync/randrade/learning/ -name  predicting*
+  786  find /run/media/randrade/ADATAHV100/respaldos/rsync/randrade/proyectos/mad/ -name  predicting*
+  787  find ~/proyectos/ -name  predicting*
+  788  find ~ -name  predicting*
+  789  find ~ -name  sales
+  790  find /run/media/randrade/ADATAHV100/respaldos/rsync/randrade/ -name sales
+  791  find /run/media/randrade/ADATAHV100/respaldos/rsync/randrade/capacitacion/ -name sales
+  792  find /run/media/randrade/ADATAHV100/respaldos/rsync/randrade/learning/python/ -name sales
+  793  cd time_series/
+  794  ll
+  795  unzip fae78e4b0894cc0812812e4e600e5860-aa60276122cd4ac9da1e4850eabb144b1965f6d2.zip 
+  796  mv fae78e4b0894cc0812812e4e600e5860-aa60276122cd4ac9da1e4850eabb144b1965f6d2/ sales/
+  797  ll
+  798  cd sales/
+  799  ll
+  800  conda -l
+  801  conda -help
+  802  conda --help
+  803  conda list
+  804  conda --help
+  805  conda info --envs
+  806  conda activate jptrviz
+  807  jupyter notebook
+  808  deactivate
+  809  conda deactivate
+  810  conda create --name time_series
+  811  conda activate time_series
+  812  conda install plotly
+  813  jupyter notebook
+  814  conda install -c anaconda ipykernel
+  815  jupyter notebook
+  816  python -m ipykernel install --user --name=time_series
+  817  jupyter notebook
+  818  cd /home/randrade/learning/python/jupyter/time_series/
+  819  conda activate time_series
+  820  ll
+  821  jupyter notebook
+  822  cd ~/learning/github
+  823  echo "# hello-world" >> README.md
+  824  git init
+  825  git add README.md
+  826  git commit -m "first commit"
+  827  git branch -M main
+  828  git remote add origin https://github.com/randradegh/hello-world.git
+  829  git push -u origin mainll
+  830  ll
+  831  rm README.md 
+  832  history 
+  833  cd ~/learning/github
+  834  ll
+  835  cd
+  836  mkdir learning/github
+  837  echo "# hello-world" >> README.md
+  838  git init
+  839  git add README.md
+  840  git commit -m "first commit"
+  841  git branch -M main
+  842  git remote add origin https://github.com/randradegh/hello-world.git
+  843  git push -u origin main
+  844  ll
+  845  cd /run/media/randrade/Lexar/.Trash-1000/
+  846  ll
+  847  cd files/
+  848  ll
+  849  rm *
+  850  rm -Rf WandaVision.2.2.S01E06.1080p.DSNP.WEBRip.DDP5.1.Atmos.x264-TOMMY\[rartv\]/
+  851  ll
+  852  cd /home/randrade/learning/python/jupyter/time_series/
+  853  conda activate time_series
+  854  pip install --upgrade jupyterlab
+  855  conda update jupyterlab
+  856  conda install -c conda-forge jupyterlab=3
+  857  jupyter lab
+  858  jupyter notebook
+  859  ~/.dropbox-dist/dropboxd
+  860  cd Descargas/
+  861  ll
+  862  la -l
+  863  ls -l
+  864  la
+  865  ls
+  866  cd \[\ FreeCourseWeb.com\ \]\ Lynda\ -\ Learning\ GitHub\ Actions/
+  867  ll
+  868  cd ~Get\ Your\ Course\ Here\ \!/
+  869  ll
+  870  cd Ex_Files_GitHub_Actions/
+  871  ll
+  872  cd Exercise\ Files/
+  873  ll
+  874  cd Ch01/
+  875  ll
+  876  cd 01_01/
+  877  ll
+  878  vi README.md 
+  879  ls github/
+  880  vi github/main.workflow 
+  881  cd 
+  882  pwd
+  883  mkdir learning/devops/github-actions/postgres & cd $_
+  884  mkdir -p learning/devops/github-actions/postgres & cd $_
+  885  mkdir -p ~/learning/devops/github-actions/postgres & cd $_
+  886  mkdir -p ~/learning/devops/github-actions/postgres
+  887  cd $_
+  888  echo "# pgsql-action" >> README.md
+  889  git init
+  890  git add .
+  891  git commit -m "Primer commit"
+  892  git branch -M main
+  893  git remote add origin https://github.com/randradegh/pgsql-action.git
+  894  git push -u origin main
+  895  mkdir -p .github/workflows && cd $_
+  896  vi pgsql_action.yaml
+  897  cd ..
+  898  vi client.js
+  899  history 
+  900  git add .
+  901  git commit -m "Archivos yaml y js"
+  902  git push -u origin main
+  903  vi client.js
+  904  git commit -m "Cambio en la instalación de node"
+  905  git add .
+  906  history 
+  907  git push -u origin main
+  908  git add .
+  909  git push -u origin main
+  910  git push -u origin main
+  911  vi client.js
+  912  vi .github/workflows/pgsql_action.yaml 
+  913  vi client.js
+  914  vi .github/workflows/pgsql_action.yaml 
+  915  git add .
+  916  git commit -m "Cambio en la instalación de node 3"
+  917  git push -u origin main
+  918  vi .github/workflows/pgsql_action.yaml 
+  919  git add .
+  920  git commit -m "Cambio en la instalación de node 4"
+  921  git push -u origin main
+  922  vi .github/workflows/pgsql_action.yaml 
+  923  git add .
+  924  git commit -m "Cambio en la instalación de node 5"
+  925  git push -u origin main
+  926  npm init
+  927  conda create --name pgsql_ga
+  928  conda activate pgsql_ga
+  929  npm init
+  930  ll -a
+  931  npm init
+  932  ll -a
+  933  git add .
+  934  git commit -m "Adición de package.json"
+  935  git push -u origin main
+  936  vi .github/workflows/pgsql_action.yaml 
+  937  npm -v
+  938  vi package.json 
+  939  git add .
+  940  git commit -m "Adición de package.json 2"
+  941  git push -u origin main
+  942  ll -a
+  943  npm i --package-lock-only
+  944  ll
+  945  git add .
+  946  git commit -m "Adición de package-lock.json"
+  947  git push -u origin main
+  948  npm install pg --save
+  949  cat package.json 
+  950  git add .
+  951  git commit -m "Intalación de pg"
+  952  git commit -m "Instalación de pg"
+  953  git push -u origin main
+  954  git add package.json 
+  955  history 
+  956  npm i --package-lock-only
+  957  git add .
+  958  git commit -m "Instalación de pg 2"
+  959  git add package.json package-lock.json 
+  960  git commit -m "Instalación de pg 2"
+  961  git push -u origin main
+  962  git push --force-with-lease origin main
+  963  git add client.js 
+  964  git commit -m "Nuevo insert"
+  965  git push -u origin main
+  966  git add client.js 
+  967  git commit -m "Nuevo insert 2"
+  968  git push -u origin main
+  969  ll -a
+  970  cat package-lock.json 
+  971  ll -a
+  972  find . -name package*
+  973* 
+  974  npm client.js 
+  975  npm run client.js 
+  976  ll -a
+  977  find . -name *lock*
+  978  npm run client.js 
+  979  npm run package.json 
+  980  npm run ./client.js 
+  981  npm run package.json 
+  982  vi package.json 
+  983  npm run package.json 
+  984  ll
+  985  npm run package.json 
+  986  ll
+  987  npm run package.json
+  988  npm run package.json 
+  989  npm run client.js 
+  990  npm run package.json 
+  991  npm init
+  992  npm help init
+  993  npm init client.js 
+  994  vi client.js 
+  995  conda activate pgsql_ga
+  996  git add client.js 
+  997  git commit -m "Inserción de dos registros."
+  998  git remote add origin https://github.com/randradegh/pgsql-action.git
+  999  git push -u origin main
+ 1000  git push --force-with-lease origin main
+ 1001  git add client.js 
+ 1002  git commit -m "Inserción de dos registros."
+ 1003  git push -u origin main
+ 1004  git add client.js 
+ 1005  git commit -m "Inserción de dos registros 2."
+ 1006  git push -u origin main
+ 1007  git add client.js 
+ 1008  git commit -m "Inserción de dos registros 3."
+ 1009  git push -u origin main
+ 1010  history > history_pgsql_gha.txt
