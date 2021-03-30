@@ -10,10 +10,10 @@ const pgclient = new Client({
 
 pgclient.connect();
 
-# Creación de la tabla student 
+
 const table = 'CREATE TABLE student(id SERIAL PRIMARY KEY, firstName VARCHAR(40) NOT NULL, lastName VARCHAR(40) NOT NULL, age INT, address VARCHAR(80), email VARCHAR(40))'
 
-# Primer insert 
+
 const text = 'INSERT INTO student(firstname, lastname, age, address, email) VALUES($1, $2, $3, $4, $5) RETURNING *'
 const values = ['Ingrid', 'Chávez', 18, 'Reforms 222. Cuauhtémoc, CDMX, México', 'ingrid@github.com']
 
@@ -25,7 +25,7 @@ pgclient.query(text, values, (err, res) => {
     if (err) throw err
 });
 
-# segundo insert 
+
 const text = 'INSERT INTO student(firstname, lastname, age, address, email) VALUES($1, $2, $3, $4, $5) RETURNING *'
 const values = ['Roberto', 'Andrade', 58, 'Chopo 8, Cuauhtémoc, CDMX, México', 'raf@github.com']
 
