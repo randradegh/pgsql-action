@@ -15,8 +15,7 @@ const create_db = 'CREATE DATABASE prueba'
 
 pgclient.end();
 
-// Creamos la tabla
-const table = 'CREATE TABLE student(id SERIAL PRIMARY KEY, firstName VARCHAR(40) NOT NULL, lastName VARCHAR(40) NOT NULL, age INT, address VARCHAR(80), email VARCHAR(40))'
+
 
 
 const pgclient1 = new Client({
@@ -28,13 +27,19 @@ const pgclient1 = new Client({
 });
 
 pgclient1.connect();
-// Primer insert
-const text = 'INSERT INTO student(firstname, lastname, age, address, email) VALUES($1, $2, $3, $4, $5) RETURNING *'
-const values = ['Ingrid', 'Chávez', 18, 'Reforms 222. Cuauhtémoc, CDMX, México', 'ingrid@github.com']
+
+// Creamos la tabla
+const table = 'CREATE TABLE student(id SERIAL PRIMARY KEY, firstName VARCHAR(40) NOT NULL, lastName VARCHAR(40) NOT NULL, age INT, address VARCHAR(80), email VARCHAR(40))'
 
 pgclient1.query(table, (err, res) => {
     if (err) throw err
 });
+
+// Primer insert
+const text = 'INSERT INTO student(firstname, lastname, age, address, email) VALUES($1, $2, $3, $4, $5) RETURNING *'
+const values = ['Ingrid', 'Chávez', 18, 'Reforms 222. Cuauhtémoc, CDMX, México', 'ingrid@github.com']
+
+
 
 pgclient1.query(text, values, (err, res) => {
     if (err) throw err
