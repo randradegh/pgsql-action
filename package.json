@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/randradegh/pgsql-action/issues"
   },
-  "homepage": "https://github.com/randradegh/pgsql-action#readme"
+  "homepage": "https://github.com/randradegh/pgsql-action#readme",
+  "dependencies": {
+    "pg": "^8.5.1"
+  }
 }
