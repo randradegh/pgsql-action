@@ -34,7 +34,8 @@ jobs:
           pg_isready
 
       - name: Create test database
-        run: sudo -u postgres createdb --owner=postgres test
+        run: |
+          sudo -u postgres createdb --owner=postgres test
 
       # Downloads a copy of the code in your repository before running CI tests
       - name: Check out repository code
